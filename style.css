@@ -1,6 +1,19 @@
-#title{
+body{
     text-align: center;
-}
-#description{
-    text-align: center;
-}
+    background-color: cyan;
+  }
+  h1 {
+    font-size: 50px;
+  }
+    h3 {
+      font-size:20px
+    }
+  p {
+    font-size: 20px;
+  }
+  #survey-form {
+    font-size: 20px;
+    justify-content: center;
+  }
+  
+  

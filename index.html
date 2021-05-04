@@ -9,8 +9,49 @@
 </head>
 <body>
 
-    <h1 id="title">Bio-data</h1>
-    <p id="description">Data caption </p>
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-</body>
-</html>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<h1 id="title">Bio-Data</h1>
+<p id="description">Data Capture</p>
+<form id="survey-form">
+  <label id="name-label">Name:</label>
+  <input type="text" id="name" name="name" placeholder="enter name"  autofocus required
+  </input><br><br>
+  <label id="email-label">Email:</label>
+  <input type="email" id="email" name="email" placeholder="enter mail" required</input><br><br>
+  <label id="number-label">Age:</label>
+  <input type="number" id="number" name="age" min="1" max="100"  placeholder="Enter your age</input>
+    <p>Your Favourite Game<p>
+  <input type="radio" id="Football" value="Football" name="game"</input>
+  <label for="game">Football</label><br>
+  <input type="radio" id="Vollyball" value="Vollyball" name="game"</input>
+  <label for="game">Vollyball</label><br>
+  <input type="radio" id="Basketball" value="Basketball" name="game"</input>
+  <label for="game">Basketball</label><br>
+  <input type="radio" id="Javelin" value="Javelin" name="game"</input>
+  <label for="game">Javelin</label><br><br> 
+<label for="colour">What Is Your Favourite Colour:</label>
+  <select name="color" id="dropdown" title="Please select an option">
+    <option value=" disabled selected"> choose an option
+  <option value="red">Red</option>
+  <option value="blue">Blue</option>
+  <option value="green">Green</option>
+    </select><br>
+  <div class="check-boxes">
+       <h3>Gender</h3>
+   <form  action="/action_page.php">
+  <input type="checkbox" id="sex" name="sex" value="Male">
+  <label for="Gender"> Male</label><br>
+  <input type="checkbox" id="sex" name="sex" value="female">
+  <label for="Gender"> Female</label><br>
+ <input type="checkbox" id="sex" name="other" value="other">
+  <label for="other"> Other</label><br></div><br>
+   <div class="text-area">
+  <label for="w3review">Textarea:</label>
+<textarea id="w3review" name="w3review" rows="4" cols="50">
+At Microverse, you will learn how to make a website. They offer free tutorials in all web development technologies.
+</textarea><br>                  
+ </div><br>
+   <button form="survey-form" id="submit" type="submit">Submit</button>
+ 
+  
+</form>
